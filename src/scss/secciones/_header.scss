@@ -1,0 +1,62 @@
+#header {
+	padding-top: 15vw;
+
+	.img-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 65vw;
+    display: block;
+    margin: 0 auto;
+
+    img {
+    	transform: scale(1.1) translate(5vw, 4vw);
+    }
+	}
+
+	h1 {
+		font-size: 15vw;
+		color: $violeta;
+		width: 65vw;
+		margin: 0 auto;
+		position: relative;
+		line-height: 1.2;
+
+		&:before,
+		&:after {
+			content: $hojita;
+			display: inline-block;
+			width: 5vw;
+			position: absolute;
+			top: -4vw;
+		}
+
+		&:before {
+	    left: -7vw;
+		}
+
+		&:after {
+			transform: rotate(180deg);
+			right: -2vw;
+			bottom: -2vw;
+		}
+
+		span {
+			display: block;
+			font-size: 7.5vw;
+			color: $body-color;
+			line-height: 1;
+			position: absolute;
+			top: -12vw;
+		}
+
+	}
+
+	p {
+		color: $rosa;
+		margin: 0;
+		text-align: center;
+		font-size: 5vw;
+		line-height: 1;
+		text-transform: uppercase;
+	}
+}

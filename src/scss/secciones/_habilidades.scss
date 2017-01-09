@@ -1,0 +1,62 @@
+#habilidades {
+
+	h2 {
+		text-align: right;
+
+		&:before {
+			content: $compu;
+			width: 14vw;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	.pointer-text {
+		font-weight: $bold;
+		width: 47vw;
+
+		span {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		&:after,
+		&:before {
+			content: $flecha-small;
+			display: inline-block;
+			width: 3vw;
+			vertical-align: top;
+		}
+
+		&:before {
+			content: "";
+		}
+
+		&:after {
+			float: right;
+			transform: rotate(-40deg);
+		}
+
+		&.inv {
+			float: right;
+			text-align: right;
+
+			&:after {
+				content: "";
+			}
+
+			&:before {
+				content: $flecha-small;
+				float: left;
+				transform: rotateX(180deg) rotate(140deg);
+			}
+		}
+	}
+
+	.icon-container {
+
+		.column {
+			padding: 3vw;
+		}
+	}
+}

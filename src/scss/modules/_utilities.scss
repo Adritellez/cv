@@ -1,0 +1,15 @@
+hr.divider {
+	background: {
+		image: $divider;
+		repeat: no-repeat;
+		position: center center;
+		size: 100%;
+	}
+	margin: 0;
+	padding: 5vw 0;
+	border: none;
+}
+
+.fa-heart {
+	color: $white;
+}

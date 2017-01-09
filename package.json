@@ -1,24 +1,29 @@
 {
-  "name": "adritellez",
+  "name": "fr-boilerplate",
   "version": "1.0.0",
-  "description": "AdriTellez CV",
+  "description": "Mi propio boilerplate para front-end",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Adritellez/adritellez.git"
+    "url": "git+https://github.com/fristaildg/fr-boilerplate.git"
   },
-  "author": "Adri Tellez",
+  "author": "Luis Fernández",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Adritellez/adritellez/issues"
+    "url": "https://github.com/fristaildg/fr-boilerplate/issues"
   },
-  "homepage": "https://github.com/Adritellez/adritellez#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-sass": "^3.0.0"
-  }
+  "homepage": "https://github.com/fristaildg/fr-boilerplate#readme"
 }

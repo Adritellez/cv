@@ -1,0 +1,8 @@
+@import "../../bower_components/foundation-sites/scss/foundation";
+@include foundation-everything;
+
+$global-width: rem-calc(960);
+
+.row {
+	max-width: $global-width;
+}

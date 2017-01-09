@@ -1,0 +1,28 @@
+#sobreMi {
+
+	h2 {
+		margin-bottom: 0;
+		margin-top: 5vw;
+
+		&:before {
+			content: $mano1;
+			width: 15vw;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		span {
+			display: inline-block;
+			vertical-align: top;
+			line-height: 0.5;
+		}
+	}
+
+	&:after {
+		content: $flecha;
+		display: block;
+		width: 7vw;
+		float: right;
+		margin-right: 20vw;
+	}
+}

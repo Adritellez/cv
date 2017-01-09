@@ -1,0 +1,27 @@
+footer {
+	background-color: $violeta;
+	padding: 5vw 10vw;
+	color: $white;
+
+	a {
+		display: block;
+		color: $white;
+		margin-bottom: 4vw;
+
+		.fa {
+			font-size: 8vw;
+		}
+
+		span {
+			font-size: 4.5vw;
+		}
+	}
+
+	.btn {
+		background-color: $rosa;
+		border-radius: 2vw;
+		text-align: center;
+		padding: 3vw;
+		font-weight: $bold;
+	}
+}

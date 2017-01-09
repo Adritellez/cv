@@ -1,0 +1,22 @@
+{
+  "name": "fr-boilerplate",
+  "description": "Mi propio boilerplate para front-end",
+  "main": "index.js",
+  "authors": [
+    "Luis Fernández"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fristaildg/fr-boilerplate",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "foundation-sites": "^6.3.0"
+  }
+}

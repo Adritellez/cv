@@ -1,0 +1,21 @@
+body {
+	font-family: $body-font;	
+	color: $body-color;
+}
+
+h1,
+h2 {
+	font-family: $titulos;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 11vw;
+	margin-bottom: 4vw;
+	line-height: 1;
+}
+
+p {
+	font-size: 5vw;
+	line-height: 1.2;
+}
