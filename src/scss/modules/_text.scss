@@ -13,9 +13,18 @@ h2 {
 	font-size: 11vw;
 	margin-bottom: 4vw;
 	line-height: 1;
+
+	@media($large) {
+		font-size: 90px;
+		margin-bottom: 40px;
+	}
 }
 
 p {
 	font-size: 5vw;
 	line-height: 1.2;
+
+	@media($large) {
+		font-size: 23px;
+	}
 }

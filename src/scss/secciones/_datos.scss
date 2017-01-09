@@ -16,4 +16,16 @@
 			vertical-align: top;
 		}
 	}
+
+	@media($large) {
+
+		h2 {
+			margin-top: 50px;
+
+			&:after {
+				width: 70px;
+				transform: translateY(50px);
+			}
+		}
+	}
 }

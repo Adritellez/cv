@@ -8,4 +8,11 @@ body {
 	main {
 		padding: 0 10vw;
 	}
+
+	@media($large) {
+
+		main {
+			padding: 0;
+		}
+	}
 }

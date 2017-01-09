@@ -59,4 +59,75 @@
 			padding: 3vw;
 		}
 	}
+
+	@media($large) {
+
+		h2 {
+
+			&:before {
+				width: 105px;
+				display: inline-block;
+				vertical-align: bottom;
+				margin-right: 30px;
+			}
+
+			span {
+				display: inline-block;
+				vertical-align: bottom;
+			}
+		}
+
+		.pointer-text {
+			width: 60%;
+			margin-bottom: 0;
+			position: relative;
+
+			&:after,
+			&:before {
+				width: 20px;
+				position: absolute;
+			}
+
+			&:after {
+				right: 30px;
+			}
+
+			&:before {
+				left: 30px;
+			}
+		}
+
+		.icon-container {
+
+			.column {
+				padding: {
+					top: 20px;
+					bottom: 20px;
+				}
+			}
+
+		}
+
+		.graphic {
+
+			.icon-container {
+
+				.column {
+					padding-left: 0;
+					padding-right: 90px;
+				}
+			}
+		}
+
+		.web {
+
+			.icon-container {
+
+				.column {
+					padding-right: 0;
+					padding-left: 90px;
+				}
+			}
+		}
+	}
 }
