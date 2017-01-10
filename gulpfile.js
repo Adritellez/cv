@@ -26,7 +26,7 @@ gulp.task("sass", function() {
 
 gulp.task("html", function() {
 
-	return gulp.src("./**/*.html")
+	return gulp.src("./*.html")
 				.pipe(browserSync.reload({stream:true}))
 });
 
@@ -39,12 +39,14 @@ gulp.task("js", function() {
 
 	.pipe(concat("app.min.js"))
 	.pipe(uglify())
-	.pipe(gulp.dest("dest/js"));
+	.pipe(gulp.dest("dest/js"))
+	.pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task("watch" , function() {
 	gulp.watch("src/scss/**/*.scss", ["sass"]);
 	gulp.watch("./**/*.html", ["html"]);
+	gulp.watch("src/js/*.js", ["js"]);
 });
 
 gulp.task("serve", ["sync", "watch"]);

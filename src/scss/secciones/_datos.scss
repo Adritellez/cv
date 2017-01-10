@@ -9,6 +9,8 @@
 			display: inline-block;
 			vertical-align: top;
 			width: 15vw;
+			transform-origin: top left;
+			animation: manoShaking 1s infinite;
 		}
 
 		span {
@@ -24,8 +26,13 @@
 
 			&:after {
 				width: 70px;
-				transform: translateY(50px);
+				margin-top: 50px;
 			}
+		}
+
+		p {
+			margin-top: -55px;
+			margin-bottom: 55px;
 		}
 	}
 }

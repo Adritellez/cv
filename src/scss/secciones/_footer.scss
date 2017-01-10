@@ -31,12 +31,31 @@ footer {
 		a {
 			margin-bottom: 20px;
 
+			.fa,
+			span {
+				vertical-align: bottom;
+				display: inline-block;			
+			}
+
 			.fa {
 				font-size: 50px;
+				transition: all 0.2s ease-in-out;
+				line-height: 1;
 			}
 
 			span {
 				font-size: 23px;
+			}
+
+			&:hover {
+				color: $white;
+
+				.fa {
+					color: $rosa;
+					transform: translate(-2px, -2px);
+					border-radius: 5px;
+					box-shadow: 5px 5px 0 darken($violeta, 3%);
+				}
 			}
 		}
 
@@ -44,6 +63,17 @@ footer {
 			border-radius: 15px;
 			padding: 10px;
 			font-size: 23px;
+			transition: all 0.2s ease-in-out;
+
+			&:visited,
+			&:active {
+				color: $white;
+			}
+
+			&:hover {
+				transform: translate(-5px, -5px);
+				box-shadow: 5px 5px 0 darken($violeta, 3%);
+			}
 		}
 	}
 }

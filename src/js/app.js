@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	console.log("holamundo");
+	$('main').fadeIn('fast');
 });

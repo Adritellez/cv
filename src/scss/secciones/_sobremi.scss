@@ -9,6 +9,8 @@
 			width: 15vw;
 			display: inline-block;
 			vertical-align: top;
+			transform-origin: top right;
+			animation: manoShaking 1s infinite;
 		}
 
 		span {
