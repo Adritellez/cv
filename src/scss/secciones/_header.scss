@@ -106,4 +106,18 @@
 			margin-bottom: 50px;
 		}
 	}
+
+	.lang {
+		text-align: right;
+		
+		> a {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 25px;
+			height: 25px;
+			background-color: $white;
+			border-radius: 50%;
+		}
+	}
 }
