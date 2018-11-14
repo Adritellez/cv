@@ -1,4 +1,5 @@
 #sobreMi {
+	margin-bottom: 7vw;
 
 	h2 {
 		margin-bottom: 0;
@@ -20,15 +21,16 @@
 		}
 	}
 
-	&:after {
+	/* &:after {
 		content: $flecha;
 		display: block;
 		width: 7vw;
 		float: right;
 		margin-right: 20vw;
-	}
+	} */
 
 	@media($large) {
+		margin-bottom: 83px;
 
 		h2 {
 			margin-top: 50px;
